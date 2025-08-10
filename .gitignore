@@ -1,6 +1,6 @@
 # Logs
 
-.env
+
 
 logs
 *.log
@@ -25,3 +25,5 @@ backend/node_modules/
 *.njsproj
 *.sln
 *.sw?
+
+.env
