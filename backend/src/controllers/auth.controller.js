@@ -53,7 +53,6 @@ export async function signup(req, res) {
             maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
             httpOnly: true,
             sameSite: 'strict',
-            secure: process.env.NODE_ENV === 'production', // Use secure cookies in production
         })
 
         res.status(201).json({

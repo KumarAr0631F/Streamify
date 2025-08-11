@@ -15,8 +15,7 @@ const port = process.env.PORT || 3000;
 
 const __dirname = path.resolve();
 
-const allowedOrigins = [
-  "http://localhost:5173", // local dev
+const allowedOrigins = [ // local dev
   "https://streamify-frontend-mp5a.onrender.com/login" // deployed frontend
 ];
 
